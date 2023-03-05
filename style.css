@@ -1,0 +1,59 @@
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+body {
+  height: 100vh;
+  background-image: url(/Users/sarthak/Desktop/Txon/TXON_03/images.png);
+  background-repeat: none;
+  background-size: cover;
+}
+
+h1 {
+	font-size: 48px;
+	margin-top: 40px;
+}
+
+input {
+	padding: 10px;
+	font-size: 24px;
+	border: none;
+	border-bottom: 2px solid #ccc;
+	width: 80%;
+}
+
+button {
+	padding: 10px;
+	font-size: 24px;
+	border: none;
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 40px;
+}
+
+li {
+	font-size: 24px;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+li .task {
+	flex-grow: 1;
+}
+
+li button {
+	background-color: #f44336;
+	color: white;
+	margin-left: 10px;
+	border: none;
+	cursor: pointer;
+}
